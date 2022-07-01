@@ -20,6 +20,10 @@
 }
 
 
+.degradado{
+	background: black;
+background: linear-gradient(90deg, black, rgba(134,126,126,1) 70%);;
+}
 .navegacion{
 	display: flex;
 	flex-direction: row;
@@ -30,6 +34,9 @@
 
 }
 
+.movimiento: hover{
+	transform: translate(-150px);
+}
 .links{
 	text-decoration: none;
 	font-size: 1.5rem;
